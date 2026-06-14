@@ -1,0 +1,58 @@
+# ============================================
+# AI Placement Mentor - .gitignore
+# ============================================
+
+# API Keys - KABHI UPLOAD MAT KARNA!
+config/.env
+*.env
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyo
+.Python
+env/
+venv/
+.venv/
+*.egg-info/
+
+# ML Models (bade files)
+models/*.pkl
+models/*.h5
+models/*.model
+
+# Resume Files (private data)
+data/resumes/
+data/jobs/
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Temp files
+tmp/
+temp/
+*.tmp
+.history/
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+*.sql.bak

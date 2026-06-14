@@ -1,0 +1,36 @@
+# ============================================
+# PLACORA - Requirements (Python 3.13)
+# ============================================
+
+# Core
+streamlit
+python-dotenv
+setuptools
+
+# PDF Processing
+PyPDF2
+pdfplumber
+
+# Data Science
+pandas
+numpy
+scikit-learn
+xgboost
+
+# NLP
+nltk
+
+# Database
+mysql-connector-python
+
+# AI - OpenAI ChatGPT (Main AI)
+openai
+
+# Visualization
+plotly
+matplotlib
+
+# Utilities
+joblib
+Pillow
+requests
