@@ -1,110 +1,200 @@
-# 🎓 AI Placement Mentor for College Students
+# 🎓 Placora-AI
 
-> An Intelligent Career Guidance System using Data Science and Generative AI
+### AI Placement Mentor for College Students
 
----
+Placora-AI is an AI-powered placement assistance platform designed to help students improve their placement readiness through resume analysis, skill-gap identification, placement prediction, career guidance, job recommendations, and interview preparation.
 
-## 📌 Project Overview
-
-AI Placement Mentor ek intelligent platform hai jo college students ko placement preparation mein help karta hai. Yeh system resume analyze karta hai, skill gaps identify karta hai, placement probability predict karta hai, aur AI-based career guidance deta hai.
+The platform combines Machine Learning, Natural Language Processing (NLP), Resume Parsing, and Data Analytics to provide personalized placement insights and career recommendations.
 
 ---
 
-## 🚀 Modules
+## 🚀 Key Features
 
-| Module | Description | Status |
-|--------|-------------|--------|
-| Module 1 | Resume Analyzer & ATS Score | ✅ Ready |
-| Module 2 | Skill Extraction & Gap Analysis | ✅ Ready |
-| Module 3 | Placement Prediction (ML) | 🔄 In Progress |
-| Module 4 | Job Recommendation System | 🔄 In Progress |
-| Module 5 | Interview Question Generator (Gemini) | 🔄 In Progress |
-| Module 6 | Career Roadmap Generator | 🔄 In Progress |
-| Module 7 | AI Career Mentor Chatbot | 🔄 In Progress |
-| Module 8 | Streamlit Dashboard | 🔄 In Progress |
+### 📄 Resume Analysis
+
+* Upload and analyze resumes automatically.
+* Extracts technical and non-technical skills.
+* Evaluates resume quality and completeness.
+* Identifies strengths and improvement areas.
+
+### 🛠 Skill Extraction
+
+* Detects skills from resume content using NLP.
+* Displays extracted skills in an organized format.
+* Supports technical and domain-specific skill identification.
+
+### 📊 Skill Gap Analysis
+
+* Compares student skills with industry requirements.
+* Calculates match percentage for target job roles.
+* Highlights missing skills required for placement success.
+
+### 🎯 Placement Prediction
+
+* Predicts placement readiness based on academic and professional profile.
+* Considers factors such as:
+
+  * CGPA
+  * Communication Skills
+  * Internship Experience
+  * Backlogs
+  * Technical Skills
+
+### 💼 Job Recommendations
+
+* Recommends suitable career paths and job roles.
+* Provides:
+
+  * Match Percentage
+  * Expected Salary Range
+  * Industry Growth Potential
+  * Top Hiring Companies
+  * Missing Skills
+
+### 🧠 AI Career Mentor
+
+* Provides personalized career guidance.
+* Suggests learning paths and improvement strategies.
+* Helps students build industry-relevant profiles.
+
+### 🎤 Interview Preparation
+
+* Generates interview questions based on:
+
+  * Selected Job Role
+  * Difficulty Level
+* Supports role-specific interview preparation.
+* Provides interview readiness guidance.
+
+### 🗺 Career Roadmap
+
+* Recommends future learning paths.
+* Suggests projects, certifications, and skill upgrades.
+* Guides students toward desired career goals.
 
 ---
 
-## 🛠️ Tech Stack
+## 🏗 System Workflow
 
-- **Language**: Python 3.11+
-- **UI**: Streamlit
-- **Database**: MySQL
-- **ML**: Scikit-learn, XGBoost
-- **NLP**: NLTK, SpaCy, Transformers
-- **GenAI**: Gemini API, OpenAI API
-- **Visualization**: Plotly
+1. Student enters profile information.
+2. Resume is uploaded and analyzed.
+3. Skills are extracted automatically.
+4. Skill-gap analysis is performed.
+5. Placement readiness score is generated.
+6. Suitable jobs are recommended.
+7. Career roadmap is generated.
+8. Interview preparation support is provided.
 
 ---
 
-## ⚡ Setup Instructions
+## 🖥 Technology Stack
 
-### Step 1: Clone the Repository
-```bash
-git clone https://github.com/yourusername/AI_Placement_Mentor.git
-cd AI_Placement_Mentor
+### Frontend
+
+* Streamlit
+
+### Backend
+
+* Python
+
+### Machine Learning & NLP
+
+* Scikit-Learn
+* Pandas
+* NumPy
+* NLTK
+
+### Database
+
+* MySQL
+
+### Development Tools
+
+* Jupyter Notebook
+* Git
+* GitHub
+
+---
+
+## 📂 Project Structure
+
+```text
+Placora-AI/
+│
+├── app/
+├── dashboard/
+├── database/
+├── models/
+├── notebooks/
+├── data/
+├── requirements.txt
+├── README.md
+└── .gitignore
 ```
 
-### Step 2: Install Dependencies
+---
+
+## ⚙ Installation
+
+### Clone Repository
+
+```bash
+git clone https://github.com/Kishan1Varshney/Placora-AI.git
+cd Placora-AI
+```
+
+### Install Dependencies
+
 ```bash
 pip install -r requirements.txt
 ```
 
-### Step 3: Configure API Keys
-```bash
-# config/.env file edit karo
-GEMINI_API_KEY=your_key_here
-OPENAI_API_KEY=your_key_here
-DB_PASSWORD=your_mysql_password
-```
+### Configure Database
 
-### Step 4: Database Setup
-```bash
-mysql -u root -p < database/placement.sql
-```
+1. Create a MySQL database.
+2. Import `Placora.sql`.
+3. Update database credentials.
 
-### Step 5: Run the App
+### Run Application
+
 ```bash
 streamlit run dashboard/streamlit_app.py
 ```
 
 ---
 
-## 📁 Project Structure
+## 🎯 Target Users
 
-```
-AI_Placement_Mentor/
-│
-├── app/
-│   ├── resume_parser.py       # Module 1: Resume Analysis
-│   ├── skill_extractor.py     # Module 2: Skill Extraction
-│   ├── predictor.py           # Module 3: ML Prediction
-│   ├── recommender.py         # Module 4: Job Recommendation
-│   └── chatbot.py             # Module 7: AI Chatbot
-│
-├── dashboard/
-│   └── streamlit_app.py       # Main Streamlit UI
-│
-├── database/
-│   ├── placement.sql          # Database schema
-│   └── db_connection.py       # DB helper functions
-│
-├── models/                    # Trained ML models
-├── data/                      # Datasets
-├── config/                    # Configuration files
-└── requirements.txt
-```
+* College Students
+* Final Year Students
+* Placement Cells
+* Career Counselors
+* Fresh Graduates
 
 ---
 
-## 👨‍💻 Developer
+## 🔮 Future Enhancements
 
-**[Your Name]**  
-B.Tech [Branch] | [College Name]  
-GitHub: github.com/yourusername
+* ATS Score Analysis
+* LinkedIn Profile Analysis
+* AI Resume Builder
+* Mock Interview Simulator
+* Job Portal Integration
+* Personalized Learning Recommendations
+* AI Chatbot Career Assistant
 
 ---
 
-## 📄 License
+## 👨‍💻 Author
 
-This project is for educational purposes.
+**Kishan Kumar**
+
+B.Tech – Computer Science & Engineering
+
+GitHub: https://github.com/Kishan1Varshney
+
+---
+
+## 📜 License
+
+This project is developed for educational, academic, and research purposes.
