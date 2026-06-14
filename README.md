@@ -5,6 +5,68 @@
 Placora-AI is an AI-powered placement assistance platform designed to help students improve their placement readiness through resume analysis, skill-gap identification, placement prediction, career guidance, job recommendations, and interview preparation.
 
 The platform combines Machine Learning, Natural Language Processing (NLP), Resume Parsing, and Data Analytics to provide personalized placement insights and career recommendations.
+<div align="center">
+
+# 🎓 Placora-AI
+
+### AI Placement Mentor for College Students
+
+AI-Powered Career Guidance, Resume Analysis, Placement Prediction & Job Recommendation Platform
+
+![Python](https://img.shields.io/badge/Python-3.10+-blue)
+![Streamlit](https://img.shields.io/badge/Streamlit-Web%20App-red)
+![MySQL](https://img.shields.io/badge/Database-MySQL-orange)
+![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Enabled-green)
+![NLP](https://img.shields.io/badge/NLP-Powered-success)
+![Status](https://img.shields.io/badge/Status-Active-brightgreen)
+
+</div>
+
+---
+
+## 🎥 Live Application Demo
+
+<p align="center">
+  <img src="assets/placora_demo_professional.gif" width="900">
+</p>
+
+---
+
+## 📸 Project Screenshots
+
+| Dashboard                            | Resume Analysis                      |
+| ------------------------------------ | ------------------------------------ |
+| ![](assets/placora_screenshot_1.png) | ![](assets/placora_screenshot_2.png) |
+
+| Job Recommendation                   | Career Guidance                      |
+| ------------------------------------ | ------------------------------------ |
+| ![](assets/placora_screenshot_3.png) | ![](assets/placora_screenshot_4.png) |
+
+---
+
+## 🌟 Project Highlights
+
+✅ Resume Parsing & Analysis
+
+✅ Skill Extraction using NLP
+
+✅ Skill Gap Analysis
+
+✅ Placement Readiness Prediction
+
+✅ AI Career Guidance
+
+✅ Job Recommendation System
+
+✅ Interview Preparation Assistant
+
+✅ Career Roadmap Generation
+
+✅ MySQL Database Integration
+
+✅ Interactive Streamlit Dashboard
+
+---
 
 ---
 
